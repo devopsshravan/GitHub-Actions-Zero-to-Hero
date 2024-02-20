@@ -48,3 +48,5 @@ jobs:
         args: apply -f kubernetes/
       env:
         KUBECONFIG: ${{ env.KUBECONFIG }}
+
+        # Done by me.
